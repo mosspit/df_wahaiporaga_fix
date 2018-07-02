@@ -1,0 +1,98 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+            "DebugName": "Wahai_Poraga_RandomAttack",
+            "ID": "5e0495a3-a335-46e3-aad9-f7a076aa7e2d",
+            "Components": [
+                {
+                    "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+                    "KeywordsIDs": [
+                        "9e8c1384-6f3f-4c71-8f49-89aff25d02e9"
+                    ],
+                    "AttackDistance": 0.75,
+                    "MinAttackDistance": 0,
+                    "AttackVariationID": "5f56a8f2-66a2-4bab-90ae-af919c8116f0",
+                    "UseParentEquippableHand": "false",
+                    "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+                    "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+                    "ImpactDelay": 0,
+                    "ForcedTarget": "None",
+                    "AffectedTargetType": "NotSelf",
+                    "AffectedTargetConditional": {
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": [
+                               
+                            ]
+                        }
+                    },
+                    "AffectedTargetDeathState": "Alive",
+                    "HostilityOverride": "Default",
+                    "PushDistance": 0,
+                    "FaceTarget": "true",
+                    "AccuracyBonus": 0,
+                    "PenetrationRating": 9,
+                    "DamageData": {
+                        "DamageType": "Slash",
+                        "AlternateDamageType": "Crush",
+                        "Minimum": 5,
+                        "Maximum": 9,
+                        "DamageProcs": [
+                           
+                        ]
+                    },
+                    "RequiresHitObject": "true",
+                    "StatusEffectKeywordsIDs": [
+                       
+                    ],
+                    "StatusEffectsIDs": [
+                       
+                    ],
+                    "RandomizeStatusEffect": "false",
+                    "CanGraze": "false",
+                    "CanCrit": "true",
+                    "DefendedBy": "Deflect",
+                    "AfflictionsDefendedBy": "None",
+                    "AfflictionApplicationModifier": "None",
+                    "SubstituteHitVisualEffect": "",
+                    "VisualEffects": [
+                       
+                    ],
+                    "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+                    "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+                    "LaunchBone": "RightWeapon",
+                    "HitBone": "Chest",
+                    "OnHitShakeDuration": "None",
+                    "OnHitShakeStrength": "None",
+                    "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+                    "AllReactNoise": "false",
+                    "InterruptsOn": "None",
+                    "InterruptType": "Normal",
+                    "TargetAngle": 0,
+                    "ApplyOnceOnly": "false",
+                    "PathsToTarget": "true",
+                    "HideFromCombatLog": "false",
+                    "AdditionalAttackOnTooltip": "false",
+                    "DoesNotApplyDamage": "false",
+                    "TreatAsWeapon": "false",
+                    "BounceData": {
+                        "Bounces": 0,
+                        "Multiplier": 0.5,
+                        "Range": 4,
+                        "InRangeOrder": "true",
+                        "NoRepeatTargets": "false",
+                        "AlwaysBounceAtEnemies": "true",
+                        "Delay": 0,
+                        "NeverBounce": "false"
+                    }
+                },
+                {
+                    "$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
+                    "EngagementRadius": 1,
+                    "IsUnarmed": "false"
+                }
+            ]
+        }
+    ]
+}
